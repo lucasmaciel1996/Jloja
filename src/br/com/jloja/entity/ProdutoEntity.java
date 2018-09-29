@@ -19,7 +19,7 @@ import org.hibernate.annotations.GenericGenerator;
 @Table(name = "produto")
 @NamedQueries({
 		@NamedQuery(name = "ProdutoEntity.buscarPorCodigo", query = "SELECT pro FROM ProdutoEntity pro WHERE pro.idproduto = :codigo"),
-		@NamedQuery(name = "PrdutoEntity.listar", query = "SELECT pro FROM ProdutoEntity pro") })
+		@NamedQuery(name = "ProdutoEntity.listar", query = "SELECT pro FROM ProdutoEntity pro") })
 
 public class ProdutoEntity {
 

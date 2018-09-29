@@ -49,6 +49,10 @@ public class FabricanteBean {
 		this.fabricanteEntity = new FabricanteEntity();
 	}
 	
+	public void limpar(){
+		fabricanteEntity = new FabricanteEntity();
+	}
+	
 	public void adicionarFabricante() {
 		try {
 			FabricanteDAO fabdao = new FabricanteDAO();
